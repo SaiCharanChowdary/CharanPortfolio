@@ -1,0 +1,96 @@
+/* Styles for all screens */
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume-section .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section .preview-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .resume-section .preview-container .preview-icon {
+ 
+    cursor: pointer;
+    color: white;
+  }
+  
+  .resume-section .preview-container .preview-text {
+    color: white;
+    margin-left: 5px;
+  }
+  
+  .resume-section .modal-dialog {
+    max-width: 800px;
+  }
+  
+  .resume-section .modal-content {
+    background-color: #f8f8f8;
+  }
+  
+  .resume-section .modal-title {
+    font-weight: bold;
+  }
+  
+  .resume-section .modal-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume-section .modal-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume-section .modal-footer .btn-secondary {
+    margin-left: 10px;
+  }
+  .preview-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .preview-button:focus,
+  .preview-button:hover {
+    outline: none;
+    color: #ffffff;
+  }
+  
+  .preview-button svg {
+    margin-right: 5px;
+  }
+  
+  
+  /* Styles for screens with a maximum width of 786px */
+  @media (max-width: 786px) {
+    .resume-section .button-container {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Styles for screens with a minimum width of 787px */
+  @media (min-width: 787px) {
+    .resume-section .button-container {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Styles for screens with a minimum width of 1200px */
+  @media (min-width: 1200px) {
+    .resume-section .button-container {
+      margin-bottom: 40px;
+    }
+  }
+  
